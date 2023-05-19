@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "GT America Standard", sans-serif;
+}
+body{
+  font-family: " GT America Standard", sans-serif;
+}
+.header{
+    background-color: #000000;
+    width: 100%;
+    height:77px;
+    color:white;
+    font-size: 2rem;
+    position: sticky;
+
+}
+
+.nav-list{
+   
+    width:40%;
+    padding-top: 1.5%;
+    margin-left: 8%;
+    font-size: 23px;
+    font-weight: 500;
+}
+a{
+    font-size: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius:8px;
+    color:white;
+}
+/*.btn-1{
+  
+  background-color: transparent;
+  border: 1px solid rgb(227, 215, 215);
+}*/
+.btn-2{
+    color:white;
+    background-color: rgb(87, 87, 243);
+}
+
+.btn-2:hover{
+    color:black;
+    background-color: white;
+}
+.nav-button-1 a {
+    color: white;
+    background-color: transparent;
+     border: 1px solid white;
+  
+}
+.nav-button-2 a{
+    background-color: #4c5fd5;
+    border: 1px solid rgb(27, 9, 9);
+    font-size: 20px;
+  
+}
+.nav-button-2 a:hover{
+    background-color: white;
+     color: #000000;
+
+}
+.button-container{
+    /* display: flex; */
+    margin-top: -30px;
+    /* background-color: yellowgreen; */
+    width: 30%;
+    margin-left: 70%;
+    /* margin-top: 10px; */
+  
+}
+.nav-button{
+margin: 0px;
+}
+/* ------------------------main-container-------------------------*/
+.main-container{
+    background-color: #dadbf1;
+    width: 100%;
+    height:55vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   line-height: 20px;
+
+  
+  
+}
+.main-container h1{
+    font-size: 65px;
+    line-height: 20px;
+   margin: 45px;
+   font-weight: 500;
+    
+   
+}
+.search-button{
+    padding: 15px 20px;
+    width: 45%;
+    color: #9a9a9a;
+    font-size: 20px;
+    display: flex;
+    text-align: left; 
+    border: 1px solid black;
+    background-color: white;
+
+}
+button{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*-------------------------hero container-------------------------*/
+.hero-container{
+    display: flex;
+   margin-top: 60px;
+}
+.hero-container a{
+    color:#576bee;
+}
+.left-content{
+    margin-left: 120px;
+    margin-top: 120px;
+  /*  background-color: aquamarine;*/
+    width: 40%;
+    height: 100vh;
+
+    
+   
+}
+.left-content img{
+    width: 80px;
+    margin: auto 40px;
+}
+.left-content1  {
+    display: flex;
+    margin-bottom: 80px;
+}
+.left-content2 {
+    display: flex;
+    margin-bottom: 80px;
+}
+.left-content3{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.content-text{
+   align-content: space-around;
+   line-height: 20px;
+  
+}
+.content-text a{
+font-weight: 100;
+font-size:medium;
+
+}
+.left-content1 p{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    line-height: 1.5;
+   
+}
+.left-content2 p{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    line-height: 1.5;
+} 
+.left-content3 p{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+.right-content img{
+    width: 80px;
+    margin: auto 40px;
+}
+.right-content{
+    margin-left: 40px;
+    margin-top: 120px;
+   /* background-color: aquamarine;*/
+    width: 40%;
+    height: 100vh;
+}
+.right-content1{
+    display: flex;
+    margin-bottom: 80px;
+
+}
+.right-content2{
+    display: flex;
+    margin-bottom: 180px;
+
+}
+.right-content3{
+    display: flex;
+    margin-bottom: 80px;
+
+}
+.right-content1 p{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    line-height: 1.5;
+   
+}
+.right-content2 p{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    line-height: 1.5;
+   
+}
+.right-content3 p{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    line-height: 1.5;
+   
+}
+/*------------------------footer--------------------------*/
+.footer{
+    width: 100%;
+    height:360px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+    color: white;
+    
+}
+
+.link-column{
+   margin-top: 50px;
+}
+.link-column li{
+    margin-top: 8px;
+    
+}
+.link-column li:hover{
+    text-decoration: underline;
+}
+.footer-1 li{
+  line-height: 15px;
+}
+.footer-2 li{
+    line-height: 15px; 
+}
+.footer-3 li{
+    line-height: 15px;
+}
+.footer-4 li{
+    line-height: 15px;
+}
+.footer-1 h2{
+  margin-bottom: 20px;
+}
+.footer-2 h2{
+    margin-bottom: 20px;
+  }
+.footer-3 h2{
+    margin-bottom: 20px;
+  }
+.footer-4 h2{
+    margin-bottom: 20px;
+  }
+.footer-4 p{
+    margin-top: 40px;
+  }
+.subfooter{
+    color: white;
+    margin-top:190px ;
+}
+.subfooter p{
+   line-height: 25px;
+   font-size: 18px;
+   
+}
+.icon{
+    font-size: 10px;
+}
